@@ -1,0 +1,21 @@
+.header-container{
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-logo {
+    align-items: center;
+}
+
+.header-login {
+    align-items: center;
+}
+
+.header-carrinho{
+    align-items: center;
+}
+.name-logo{
+    text-decoration: none;
+    color: black;
+}

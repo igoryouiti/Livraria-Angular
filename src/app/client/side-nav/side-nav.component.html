@@ -1,0 +1,11 @@
+<mat-nav-list class="nav-list-container">
+    <h3 mat-subheader> Categorias </h3>
+    <mat-list-item *ngFor="let c of categories$ | async">
+        {{c.category}}
+    </mat-list-item>
+
+    <h3 mat-subheader> Autores </h3>
+    <mat-list-item *ngFor="let a of authors$ | async">
+        {{a.author}}
+    </mat-list-item>
+</mat-nav-list>
