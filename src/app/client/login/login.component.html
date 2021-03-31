@@ -1,0 +1,24 @@
+<div>
+    <mat-card>
+        <mat-card-title>Login</mat-card-title>
+        <mat-card-content>
+            <form [formGroup]="formLogin" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="space-around center"
+                fxFill>
+                <mat-form-field fxFlex="40">
+                    <input matInput placeholder="e-mail" type="email" formControlName="email">
+                </mat-form-field>
+
+                <mat-form-field fxFlex="10">
+                    <input matInput placeholder="senha" type="password" formControlName="password">
+                </mat-form-field>
+
+                <div>
+                    <button mat-button color="primary" type="submit">Entrar</button>
+                </div>
+            </form>
+            <div>
+                <button mat-button color="primary" (click)="goBack()">Back</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

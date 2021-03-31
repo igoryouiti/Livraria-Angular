@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "category": "Ação"
+    },
+    {
+        "id": 2,
+        "category": "Terror"
+    },
+    {
+        "id": 3,
+        "category": "Infantil"
+    },
+    {
+        "id": 4,
+        "category": "Programação"
+    },
+    {
+        "id": 5,
+        "category": "Música"
+    },
+    {
+        "id": 6,
+        "category": "Turismo"
+    },
+    {
+        "id": 7,
+        "category": "Romance"
+    }
+]
