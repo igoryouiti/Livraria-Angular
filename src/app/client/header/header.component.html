@@ -1,0 +1,21 @@
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" class="header-container">
+    <div fxLayout="column" class="header-logo">
+        <a class="name-logo" routerLink="/products">Jey books</a>
+        <mat-icon>book</mat-icon>
+    </div>
+    <mat-form-field>
+        <mat-label>search</mat-label>
+        <input matInput type="text">
+        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-form-field>
+    <div fxLayout="column" class="header-login">
+        <mat-icon>login</mat-icon>
+        <span>entrar/cadastrar</span>
+    </div>
+    <div fxLayout="column" class="header-carrinho">
+        <mat-icon>shopping_cart</mat-icon>
+        <span>carrinho(0)</span>
+    </div>
+</mat-toolbar>

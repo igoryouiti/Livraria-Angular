@@ -1,0 +1,12 @@
+<mat-grid-list cols="4" rowHeight="1:2">
+    <mat-grid-tile *ngFor="let b of books$ | async; let i=index">
+        <mat-card>
+            <img mat-card-image src={{b.images[0]}}>
+            <mat-card-content fxLayout="column">
+                <label mat-label>{{b.title}}</label>
+                <label mat-label>${{b.price}}</label>
+                <button mat-raised-button color="primary" (click)="goDetails(i)">Detalhes</button>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>

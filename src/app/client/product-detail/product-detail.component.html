@@ -1,0 +1,41 @@
+<div class="product-detail-container">
+    <div class="product-detail-content">
+        <div fxLayout="column" class="product-detail-card">
+            <div fxLayout="row" *ngIf="book$ | async as book">
+                <mat-card fxFlex="30%">
+                    <img mat-card-image src={{book.images[0]}}>
+                    <mat-card-content fxLayout="row">
+                        <mat-icon>circle</mat-icon>
+                        <mat-icon>circle</mat-icon>
+                        <mat-icon>circle</mat-icon>
+                        <mat-icon>circle</mat-icon>
+                        <mat-icon>circle</mat-icon>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card fxFlex="100%">
+                    <mat-card-title>{{book.title}}</mat-card-title>
+                    <mat-card-content fxLayout="row">
+                        <div fxLayout="column">
+                            <label mat-label>${{book.price}}</label>
+                            <label mat-label>3X sem juros</label>
+                        </div>
+                        <div>
+                            <button mat-raised-button>Comprar</button>
+                        </div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="product-detail-description">
+                <label mat-label>Não tem descricao ainda</label>
+            </div>
+            <div class="product-detail-description" fxLayout="column">
+                <label mat-label>Editora : Planeta; 2ª edição (31 agosto 2020)</label>
+                <label mat-label>Idioma : Português</label>
+                <label mat-label>Capa comum : 192 páginas</label>
+                <label mat-label>ISBN-10 : 6555351284</label>
+                <label mat-label>ISBN-13 : 978-6555351286</label>
+                <label mat-label>Dimensões : 21 x 13.6 x 1.4 cm</label>
+            </div>
+        </div>
+    </div>
+</div>

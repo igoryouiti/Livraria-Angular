@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "title": "Harry Potter e a pedra filosofal",
+        "authors": [
+            "J.K. Rowling"
+        ],
+        "categories": [
+            "Fantasia"
+        ],
+        "price": 44.90,
+        "images": [
+            "https://livrariacultura.vteximg.com.br/arquivos/ids/20015134/image-be194b431bca4e5796d9e633f5ee2f8e.jpg?v=637424967464170000"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "O cão alegre",
+        "authors": [
+            "Jo Yong"
+        ],
+        "categories": [
+            "Infantil"
+        ],
+        "price": 49.90,
+        "images": [
+            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRaqU1x1_Qp3mgFuXxdcvjj4bCsdhnURCq0Em5ewCfr-f2ILlV1HfKyw6nOkyiJlpOAo_3f8V86HNEdt2p47lTwaIWlgrwo1mQbuVC2WEeUpC4bGba-HTOZ&usqp=CAE"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Livro Ozob Volume 1 – Protocolo Molotov",
+        "authors": [
+            "Leonel Caldela",
+            "Deive Pazos"
+        ],
+        "categories": [
+            "Fantasia"
+        ],
+        "price": 54.90,
+        "images": [
+            "https://cdn.nerdstore.com.br/wp-content/uploads/2020/10/vitrine-livro-ozob-01.jpg",
+            "https://cdn.nerdstore.com.br/wp-content/uploads/2020/10/vitrine-livro-ozob-02.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Código Limpo: Habilidades Práticas do Agile Software",
+        "authors": [
+            "Robert C. Martin"
+        ],
+        "categories": [
+            "Programação"
+        ],
+        "price": 71.90,
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFGiA1XA8UHQH-UEzyo_Im0XZKOn3Ertacw4XWKANTpOa0cTh2lj-XSMsAZC8WWbGla4Wu9Cf&usqp=CAc"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Coach - Um Parceiro para o Seu Sucesso",
+        "authors": [
+            "Ane Araujo"
+        ],
+        "categories": [
+            "Administração",
+            "Negociação"
+        ],
+        "price": 67.99,
+        "images": [
+            "https://images-americanas.b2w.io/produtos/01/00/item/110290/6/110290660_1GG.jpg"
+        ]
+    }
+]
