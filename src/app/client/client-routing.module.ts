@@ -13,6 +13,7 @@ const routes: Routes = [
     path: '',
     component: ClientComponent,
     children: [
+      { path: 'login', component: LoginComponent },
       { path: 'products', component: ProductListComponent },
       { path: 'products/:index', component: ProductDetailComponent },
       { path: '', pathMatch: 'full', redirectTo: 'products' }
