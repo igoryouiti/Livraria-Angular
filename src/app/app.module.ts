@@ -18,6 +18,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { LoginComponent } from './client/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductComponent } from './client/product/product.component';
+import { RegisterComponent } from './client/register/register.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ProductComponent } from './client/product/product.component';
     AdminComponent,
     PageNotFoundComponent,
     LoginComponent,
-    ProductComponent
+    ProductComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
