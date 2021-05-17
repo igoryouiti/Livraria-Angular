@@ -1,0 +1,14 @@
+
+
+.chart-card-container {
+  flex-direction: column;
+
+}
+
+.chart-sub-header {
+  flex-direction: row;
+}
+
+.chart-item{
+  flex-direction: row;
+}

@@ -19,6 +19,7 @@ import { LoginComponent } from './client/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductComponent } from './client/product/product.component';
 import { RegisterComponent } from './client/register/register.component';
+import { ChartComponent } from './client/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { RegisterComponent } from './client/register/register.component';
     PageNotFoundComponent,
     LoginComponent,
     ProductComponent,
-    RegisterComponent
+    RegisterComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,

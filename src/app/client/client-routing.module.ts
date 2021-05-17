@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ChartComponent } from './chart/chart.component';
 import { ClientComponent } from './client.component';
 import { LoginComponent } from './login/login.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
     children: [
       { path: 'login', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
+      { path: 'chart', component: ChartComponent },
       {
         path: 'products',
         component: ProductComponent,
