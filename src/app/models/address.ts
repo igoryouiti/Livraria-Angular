@@ -1,3 +1,5 @@
+import { City } from "./city";
+
 export interface Address {
   id: string;
   residenceType: string;

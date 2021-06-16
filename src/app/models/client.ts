@@ -1,4 +1,5 @@
 import { Address } from "./address";
+import { CreditCard } from "./creditCard";
 import { Telefone } from "./telefone";
 
 export interface Client {
